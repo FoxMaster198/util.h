@@ -82,7 +82,9 @@ keyInput::keyInput() {
 }
 
 void keyInput::input() {
+  cout.flush();
   read( fileno( stdin ), &key, 1 );
+  cout.flush();
 }
 
 void keyInput::startInput() {
