@@ -59,12 +59,14 @@
 - invisible - makes the text invisible
 
 **Using text formatting examples:**
+```cpp
 - cout << bright_cyan "Hello World" << endl;
 - cout << bright_cyan << "Hello World" << endl;
 - cout << bright_cyan underline "Hello World" << endl;
 - cout << bright_cyan underline << "Hello World" << endl;
 - cout << bright_cyan "Hello World" clear << endl;
-- cout << bright_cyan << "Hello World" << clear << endl;\
+- cout << bright_cyan << "Hello World" << clear << endl;
+```
 To format text, list the formatting you want the text to have before the text, and to clear formatting use "clear".\
 You can create a combination of formats by defining them: ```#define <name> <list of formats>```\
 Ex: ```#define caution bold bright_red bg_bright_yellow underline```
