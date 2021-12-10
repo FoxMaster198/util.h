@@ -94,3 +94,5 @@ void keyInput::startInput() {
 void keyInput::stopInput() {
   tcsetattr( fileno( stdin ), TCSANOW, &oldSettings );
 }
+
+keyInput getKey;
