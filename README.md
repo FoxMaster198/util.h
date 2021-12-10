@@ -72,9 +72,8 @@ You can create a combination of formats by defining them: ```#define <name> <lis
 Ex: ```#define caution bold bright_red bg_bright_yellow underline```
 
 **Keyboard input:**
-- keyInput <variablename>; - creates a keyInput object - (needed for getKey to work)
-- <variablename>.startInput(); - starts custom keyboard input
-- <variablename>.stopInput(); - stops custom keyboard input - (returns to standard input)
+- <variablename>.startInput(); - starts custom keyInput
+- <variablename>.stopInput(); - stops custom keybInput - (returns to standard input)
 - <variablename>.input(); - function to update the pressed key - (updates the <variablename>.key char variable to inputted key)
 - <variablename>.key - key inputted, can be used in if statements,switches,etc. to detirmine the effect of pressed keys.
 
@@ -96,7 +95,6 @@ using namespace std;
 
 int main() {
   string word;
-  keyInput getKey; //creates getKey variable of type keyInput - (initialize keyInput)
   
   //showing standard input before keyInput starts
   cout << "Enter a word: ";
