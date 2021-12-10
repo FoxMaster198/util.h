@@ -1,8 +1,8 @@
 # util.h
 
-**Instructions for adding to your c++ program:**\
-  1) download the file util.h\
-  2) place the file within the same folder as your c++ program file\
+**Instructions for adding to your c++ program:**
+  1) download the file util.h
+  2) place the file within the same folder as your c++ program file
   3) put ```#include "util.h"``` in your header declarations section
 
 **Features:**
