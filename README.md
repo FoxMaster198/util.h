@@ -83,8 +83,8 @@ Ex: ```#define caution bold bright_red bg_bright_yellow underline```
 - rightarrow keycode: 67
 - leftarrow keycode: 68
 
-**Keyboard input example:**
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+**Keyboard input example:**\
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ```cpp
 #include <iostream>
 #include <string>
@@ -131,7 +131,7 @@ int main() {
   return 0;
 }
 ```
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 **Other functions:**
 - wait(int milliseconds); - a delay that pauses ththe current thread in the program for the specified number of milliseconds
