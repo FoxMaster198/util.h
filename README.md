@@ -100,7 +100,7 @@ int main() {
   cout << "Enter a word: ";
   cin >> word;
   cout << "Your word is: " << word << endl;
-  cout << "keyInput started!" << endl;
+  cout << "keyInput started! Press q to stop!" << endl;
     
   getKey.startInput(); //starts custom input
   
