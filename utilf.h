@@ -7,7 +7,14 @@
 
 using namespace std;
 
-#define clear "\033[0m"
+#define clearf "\033[0m"
+#define disable "\x1B"
+
+#define cursor_up "\x1B[A"
+#define cursor_down "\x1B[B"
+#define cursor_right "\x1B[C"
+#define cursor_left "\x1B[D"
+#define backspace "\x1B[D \x1B[D"
 
 #define black "\x1B[30m"
 #define red "\x1B[31m"
