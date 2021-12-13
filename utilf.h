@@ -1,3 +1,6 @@
+#ifndef utilf_H
+#define utilf_H
+
 #include <stdlib.h>
 #include <chrono>
 #include <thread>
@@ -103,3 +106,5 @@ void keyInput::stopInput() {
 }
 
 keyInput getKey;
+
+#endif
